@@ -9,14 +9,14 @@ import ReactPlayer from 'react-player';
 
 const App = () =>{
    return (
-   <div className="first">
+   <div>
        <header className="upper-body ">
            
            <div className="top">
                <img className="logo" src={logo} alt={logo}></img>
                <button type="button" class="btn btn-md btn-danger  float-right">Sign in</button>
                
-            </div>
+          
                
                <div className="top-content">
                    
@@ -29,7 +29,7 @@ const App = () =>{
                     </div>
                     </div>
                </div>
-
+               </div>
                
        </header>
 
@@ -37,7 +37,7 @@ const App = () =>{
             <div class="tabs">
             </div>
 
-       <section>
+       <section className="my-section">
             <div class="container">
                 <div class="row my-row">
                 <div class="col-md my-col">
