@@ -14,7 +14,7 @@ const App = () =>{
            
            <div className="top">
                <img className="logo" src={logo} alt={logo}></img>
-               <button type="button" class="btn btn-md btn-danger  float-right">Sign in</button>
+               <button type="button" className="btn top-btn btn-md btn-danger  float-right">Sign in</button>
                
           
                

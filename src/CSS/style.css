@@ -187,4 +187,21 @@ img{
 .foot-list li a{
     color: #999;
 }
-
+@media (max-width: 700px){
+    .top img{
+         width: 150px;
+         margin-left: 50px;
+    }
+    .top .top-btn{
+    margin-top: 16px;
+    margin-right: 50px;
+    height: 48px;
+    width: 100px;
+    }
+     .input-group{
+    width: 400px;
+    } 
+    .input-group-append{
+        width: 180px;
+    }
+}
