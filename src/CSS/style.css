@@ -204,4 +204,8 @@ img{
     .input-group-append{
         width: 180px;
     }
+    .accordion{
+        width: 24rem;
+       border-radius: 0%;
+      }	
 }
